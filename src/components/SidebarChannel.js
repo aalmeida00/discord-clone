@@ -1,10 +1,11 @@
 import "./SidebarChannel.css";
 
-const SidebarChannel = ({ id, channel }) => {
+const SidebarChannel = ({ id, channelName }) => {
   return (
     <div className="sidebarChannel">
       <h4>
-        <span className="sidebarChannel__hash">#</span>Raincake
+        <span className="sidebarChannel__hash">#</span>
+        {channelName}
       </h4>
     </div>
   );
