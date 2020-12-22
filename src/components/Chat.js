@@ -1,7 +1,12 @@
 import "./Chat.css";
+import ChatHeader from "./ChatHeader";
 
 const Chat = () => {
-  return <h1>Chat</h1>;
+  return (
+    <div className="chat">
+      <ChatHeader />
+    </div>
+  );
 };
 
 export default Chat;
